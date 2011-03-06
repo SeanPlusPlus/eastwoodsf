@@ -1,13 +1,12 @@
 /*   
-Theme Name: Your Theme
-Theme URI: http://example.com/example/
-Description: A search engine optimized website framework for WordPress.
-Author: You
-Author URI: http://example.com/
+Theme Name: Eastwoodsf
+Theme URI: http://eastwoodsf.com
+Description: Luke's Web Site!
+Author: brown bag web design
+Author URI: http://brownbagwebdesign.com.com/
 Version: 1.0
-.
-Your theme will be your copyrighted work.
-Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+
+This work is released under GNU General Public License, version 2 (GPL).
 http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 .
 */
@@ -15,25 +14,37 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 /* Reset default browser styles */
 @import url('styles/reset.css');
 
-/* Rebuild default browser styles */
-@import url('styles/rebuild.css');
+/* Rebuild default browser styles 
+@import url('styles/rebuild.css'); */
 
-/* Import a basic layout */
-@import url('styles/2c-r.css');
+/* Import a basic layout 
+@import url('styles/2c-r.css'); */
 
-/* Basic WordPress Styles */
-@import url('styles/wp.css');
+/* Basic WordPress Styles 
+@import url('styles/wp.css'); */
 
 
 body {
-	margin: 1.5em 15%;
+	/* margin: 1.5em 15%; */
+	margin: 50px 0px; padding: 0px;
+	text-align:center;
 }
+
+#wrapper {
+        width:800px;
+	margin: 0px auto;
+	text-align: left;
+	padding: 15px;
+	border: 1px dashed #333;
+	background-color: #eee;
+}
+
 
 /* =Header
 -------------------------------------------------------------- */
 
 #branding {
-	margin: 0 0 1.5em 0;
+	margin: 0 0 0 0;
 }
 
 
@@ -42,7 +53,7 @@ body {
 
 #access {
 	margin: 0 0 1.5em 0;
-	overflow: auto;
+	float: right;
 }
 .skip-link {
 	display: none;
@@ -60,6 +71,7 @@ body {
 .menu a {
 	display: block;
 	float: left;
+	padding: 0px 0px 0px 10px;
 }
 
 
@@ -67,12 +79,15 @@ body {
 -------------------------------------------------------------- */
 
 .post {
-	margin: 0 0 3em 0;	
+	margin: 0 0 0 0;	
 }
 .entry-content, .entry-summary {
-	margin: 1.5em 0 0 0;
+	margin: 0 0 0 0;
+	padding: 100px 0px 100px 0px;
 }
-
+.entry-title {
+	padding: 40px 0px 40px 0px;
+}
 
 /* =Navigation
 -------------------------------------------------------------- */
@@ -102,25 +117,7 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* =Footer
+-------------------------------------------------------------- */
 
 
