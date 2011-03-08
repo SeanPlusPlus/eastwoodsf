@@ -23,6 +23,9 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 /* Basic WordPress Styles 
 @import url('styles/wp.css'); */
 
+a img {
+	float: right;
+}
 
 body {
 	/* margin: 1.5em 15%; */
@@ -31,7 +34,7 @@ body {
 }
 
 #wrapper {
-        width:800px;
+        width:900px;
 	margin: 0px auto;
 	text-align: left;
 	padding: 15px;
